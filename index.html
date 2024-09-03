@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>A chapeuzinho vermelho vai pela agua ou pela floresta ?</p>
+            <button class="btn-proximo" data-proximo="1">Pela floresta ?</button>
+            <button class="btn-proximo" data-proximo="2">Pela agua ?</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>A chapeuzinho leva para sua vó, doces ou pizza ?</p>
+            <button class="btn-proximo" data-proximo="3">Leva pizza ?</button>
+            <button class="btn-proximo" data-proximo="4">Leva doces ?</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Se você escolheu o caminho pela agua, você errou !!!!</p>
+            
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Se você escolheu pizza você errou !!!</p>
+            
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Se você escolheu doces você acertou parabens você ganhou</p>
+        </div>
+
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
